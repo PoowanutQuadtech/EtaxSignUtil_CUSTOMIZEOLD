@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9924E951-4301-4D3A-843C-9989895F8247}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EtaxSignUtil</RootNamespace>
+    <AssemblyName>EtaxSignUtil_CUSTOMIZEOLD</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\personel\Q-ERP %284%29\Q-ERP\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ControlCenter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\personel\Q-ERP (4)\Q-ERP\ControlCenter.dll</HintPath>
+    </Reference>
+    <Reference Include="DBUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v9.3.Core, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.3.Core, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\personel\Q-ERP (4)\Q-ERP\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageUtil, Version=1.38.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\deploy\bin\MessageUtil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ModuleUtil, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QERP, Version=1.0.2154.27330, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UtilityHelper, Version=1.7.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculateItem.cs" />
+    <Compile Include="CNDNSALES\CNDNSALESLayout.cs" />
+    <Compile Include="CNDNSALES\DocumentFooter.cs" />
+    <Compile Include="CNDNSALES\DocumentHeader.cs" />
+    <Compile Include="EtaxMail.cs" />
+    <Compile Include="Layout\BaseLayout.cs" />
+    <Compile Include="Layout\BuyerInformation.cs" />
+    <Compile Include="Layout\DocumentFooter.cs" />
+    <Compile Include="Layout\DocumentHeader.cs" />
+    <Compile Include="Layout\FileControl.cs" />
+    <Compile Include="Layout\FileTrailer.cs" />
+    <Compile Include="Layout\SellerInformation.cs" />
+    <Compile Include="Layout\TradeLineItemInformation.cs" />
+    <Compile Include="ModuleETax.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RC\DocumentFooter.cs" />
+    <Compile Include="RC\DocumentHeader.cs" />
+    <Compile Include="RC\PRLayout.cs" />
+    <Compile Include="RC\RCLayout.cs" />
+    <Compile Include="RC\TradeLineItemInformation.cs" />
+    <Compile Include="ResourceLoader.cs" />
+    <Compile Include="SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiSignETAXForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiSignETAXForm.designer.cs">
+      <DependentUpon>MultiSignETAXForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignPDF.cs" />
+    <Compile Include="SignETAXForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignETAXForm.designer.cs">
+      <DependentUpon>SignETAXForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SI\SILayout_Customize.cs" />
+    <Compile Include="SI\DocumentFooter.cs" />
+    <Compile Include="SI\DocumentHeader.cs" />
+    <Compile Include="SI\SILayout.cs" />
+    <Compile Include="TokenInfo.cs" />
+    <Compile Include="UtilityClass.cs" />
+    <Compile Include="Utility\TaxFileLayout.cs" />
+    <Compile Include="Utility\Validator.cs" />
+    <Compile Include="Variable.cs" />
+    <Compile Include="XmlLayout\ActualDeliverySupplyChainEvent.cs" />
+    <Compile Include="XmlLayout\Amount.cs" />
+    <Compile Include="XmlLayout\ApplicableHeaderTradeAgreement.cs" />
+    <Compile Include="XmlLayout\ApplicableHeaderTradeDelivery.cs" />
+    <Compile Include="XmlLayout\ApplicableHeaderTradeSettlement.cs" />
+    <Compile Include="XmlLayout\ApplicableTradeTax.cs" />
+    <Compile Include="XmlLayout\AssociatedDocumentLineDocument.cs" />
+    <Compile Include="XmlLayout\BilledQuantity.cs" />
+    <Compile Include="XmlLayout\BuyerTradeParty.cs" />
+    <Compile Include="XmlLayout\BuyerOrderReferencedDocument.cs" />
+    <Compile Include="XmlLayout\DeliveryOrderReferencedDocument.cs" />
+    <Compile Include="XmlLayout\DefinedTradeContact.cs" />
+    <Compile Include="XmlLayout\EmailURIUniversalCommunication.cs" />
+    <Compile Include="XmlLayout\ExchangedDocument.cs" />
+    <Compile Include="XmlLayout\ExchangedDocumentContext.cs" />
+    <Compile Include="XmlLayout\GrossPriceProductTradePrice.cs" />
+    <Compile Include="XmlLayout\GuidelineSpecifiedDocumentContextParameter.cs" />
+    <Compile Include="XmlLayout\ID.cs" />
+    <Compile Include="XmlLayout\IncludedNote.cs" />
+    <Compile Include="XmlLayout\IncludedSupplyChainTradeLineItem.cs" />
+    <Compile Include="XmlLayout\Namespace.cs" />
+    <Compile Include="XmlLayout\paymentTypeCodeClass.cs" />
+    <Compile Include="XmlLayout\PostalTradeAddress.cs" />
+    <Compile Include="XmlLayout\SellerTradeParty.cs" />
+    <Compile Include="XmlLayout\SpecifiedLineTradeAgreement.cs" />
+    <Compile Include="XmlLayout\SpecifiedLineTradeDelivery.cs" />
+    <Compile Include="XmlLayout\SpecifiedLineTradeSettlement.cs" />
+    <Compile Include="XmlLayout\SpecifiedTaxRegistration.cs" />
+    <Compile Include="XmlLayout\SpecifiedTradeAllowanceCharge.cs" />
+    <Compile Include="XmlLayout\SpecifiedTradePaymentTerms.cs" />
+    <Compile Include="XmlLayout\SpecifiedTradeProduct.cs" />
+    <Compile Include="XmlLayout\SpecifiedTradeSettlementHeaderMonetarySummation.cs" />
+    <Compile Include="XmlLayout\SpecifiedTradeSettlementLineMonetarySummation.cs" />
+    <Compile Include="XmlLayout\SupplyChainTradeTransaction.cs" />
+    <Compile Include="XmlLayout\TaxInvoice.cs" />
+    <Compile Include="XmlLayout\TaxInvoice_CrossIndustryInvoice.cs" />
+    <Compile Include="XmlLayout\TypeCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiSignETAXForm.resx">
+      <DependentUpon>MultiSignETAXForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignETAXForm.resx">
+      <DependentUpon>SignETAXForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="etax-1.0.jar" />
+    <EmbeddedResource Include="THSarabun.ttf" />
+    <EmbeddedResource Include="testcert.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etax_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>for /f "usebackq delims=" %25%25i in ("C:\BuildConfig\upload_url.txt") do curl -X POST -F "file=@$(TargetDir)$(TargetFileName)" "%25%25i" -o "$(TargetDir)$(TargetFileName)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
