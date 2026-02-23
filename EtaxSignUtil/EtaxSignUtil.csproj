@@ -22,7 +22,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\personel\Q-ERP %284%29\Q-ERP\</OutputPath>
+    <OutputPath>..\..\..\..\personel\Q-ERP %284%29\Q-ERP\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -37,13 +37,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ControlCenter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\personel\Q-ERP (4)\Q-ERP\ControlCenter.dll</HintPath>
+    <Reference Include="ControlCenter">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\ControlCenter.dll</HintPath>
     </Reference>
-    <Reference Include="DBUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+    <Reference Include="DBUtil">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\DBUtil.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Charts.v9.3.Core, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -57,22 +55,17 @@
     <Reference Include="DevExpress.XtraPivotGrid.v9.3.Core, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\personel\Q-ERP (4)\Q-ERP\itextsharp.dll</HintPath>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\itextsharp.dll</HintPath>
     </Reference>
-    <Reference Include="MessageUtil, Version=1.38.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\deploy\bin\MessageUtil.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="MessageUtil">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\MessageUtil.dll</HintPath>
     </Reference>
-    <Reference Include="ModuleUtil, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+    <Reference Include="ModuleUtil">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\ModuleUtil.dll</HintPath>
     </Reference>
-    <Reference Include="QERP, Version=1.0.2154.27330, Culture=neutral">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+    <Reference Include="QERP">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\QERP.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations">
@@ -93,9 +86,8 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="UtilityHelper, Version=1.7.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+    <Reference Include="UtilityHelper">
+      <HintPath>..\..\..\..\personel\Q-ERP (4)\Q-ERP\UtilityHelper.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

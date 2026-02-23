@@ -296,7 +296,7 @@ StackTrace : {ex.StackTrace}";
                     {
                         ExcaptionError = ex.StackTrace;
                     }
-                    MyMemoMessageBox.Show(ErrMsg, ExcaptionError);
+                    MessageBox.Show(ErrMsg, ExcaptionError);
                 }
                 else
                     MyMessageBox.Show(ErrMsg);
@@ -739,7 +739,7 @@ StackTrace : {ex.StackTrace}";
                     {
                         ExcaptionError = ex.StackTrace;
                     }
-                    MyMemoMessageBox.Show(ErrMsg, ExcaptionError);
+                    MessageBox.Show(ErrMsg, ExcaptionError);
                 }
                 else
                     MyMessageBox.Show(ErrMsg);
@@ -841,7 +841,7 @@ StackTrace : {ex.StackTrace}";
                     {
                         ExcaptionError = ex.StackTrace;
                     }
-                    MyMemoMessageBox.Show(ErrMsg, ExcaptionError);
+                    MessageBox.Show(ErrMsg, ExcaptionError);
                 }
                 else
                     MyMessageBox.Show(ErrMsg);
@@ -909,7 +909,7 @@ StackTrace : {ex.StackTrace}";
                     {
                         ExcaptionError = ex.StackTrace;
                     }
-                    MyMemoMessageBox.Show(ErrMsg, ExcaptionError);
+                    MessageBox.Show(ErrMsg, ExcaptionError);
                 }
                 else
                     MyMessageBox.Show(ErrMsg);
